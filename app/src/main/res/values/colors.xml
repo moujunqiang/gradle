@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tran">#23ffffff</color>
+    <color name="white">#fff</color>
+    <color name="white_trans">#64ffffff</color>
+    <color name="gray_press">#b7b6b6</color>
+    <color name="gray_default">#ffd7d6d6</color>
+    <color name="red">#e64c4e</color>
+    <color name="red_trans">#b6e64c4e</color>
+    <color name="red_pressed">#ffe61702</color>
+    <color name="gray">#ff959494</color>
+    <color name="black">#ff000000</color>
+
+    <color name="bottom_bar_normal">#ffe4e4e4</color>
+    <color name="bottom_bar_pressed">#e64c4e</color>
+    <color name="bottom_bar_text_normal">#ff000000</color>
+    <color name="bottom_bar_text_pressed">#ffffffff</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_minefragment_top">#20B2AA</color>
+    <color name="divider">#E5E5E5</color>
+</resources>

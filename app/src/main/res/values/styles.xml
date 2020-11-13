@@ -1,0 +1,117 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ActivityMarginStyle">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="BottomBarButtomNormal">
+        <item name="android:background">@color/bottom_bar_normal</item>
+        <item name="android:textColor">@color/bottom_bar_text_normal</item>
+        <item name="android:textSize">@dimen/text_size_media</item>
+    </style>
+
+    <style name="TabItemStyle">
+
+        <item name="android:background">#7fffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="FragmentFormTextTitleSytle">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="FragmentFormTextTitleDesSytle">
+        <item name="android:textSize">@dimen/text_size_media</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="FragmentFormTextSytle">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:textSize">@dimen/text_size_media</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="FormTextTitleSytle">
+        <item name="android:textSize">@dimen/text_size_media</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="FormTextSytle">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="RowStyle_large" parent="FormTextTitleSytle">
+        <item name="android:layout_height">@dimen/body_build_detail_row_height</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="RowStyle_media" parent="FormTextTitleSytle">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:layout_height">@dimen/body_build_detail_row_media_height</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="MetroLayoutStyle">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="MyEditStyle">
+        <item name="android:background">@drawable/edit_bound</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_media</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="MyEditStyle_orange">
+        <item name="android:background">@drawable/edit_bound_orange</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_media</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="MyEditStyle_gray">
+        <item name="android:background">@drawable/edit_bound_gray</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_media</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+</resources>

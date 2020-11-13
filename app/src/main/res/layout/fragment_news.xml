@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_news_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<!--
+
+    <TextView
+        android:id="@+id/head_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每周食谱"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:visibility="gone"
+         />
+-->
+
+    <TextView
+        android:id="@+id/news_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:visibility="gone"
+         />
+
+    <ListView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/news_swipe_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <!--<ListView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/news_js_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <ListView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/news_kepu_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />-->
+
+</RelativeLayout>

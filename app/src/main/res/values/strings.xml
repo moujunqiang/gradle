@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="news_title">标题:</string>
+    <string name="news_sub_title">内容:</string>
+
+    <string name="app_name">健康管理</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="title_activity_reg">RegisterActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_manage">ManageActivity</string>
+    <string name="title_activity_alert">AlertActivity</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_activity_save_drug">SaveDrugActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_mood">MoodActivity</string>
+    <string name="title_activity_newdetail">NewsDetailActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <!--title_bar-->
+    <string name="title_default_str">标题</string>
+    <!--bottom_bar-->
+    <string name="bottom_bar_eat_str">体重</string>
+    <string name="bottom_bar_sle_str">喝水</string>
+    <string name="bottom_bar_med_str">药品</string>
+    <string name="bottom_bar_bui_str">科普</string>
+    <!--tab_item-->
+    <string name="tab_item_mood_str">我的健康报告</string>
+    <string name="tab_item_medi_str">我的药品录入</string>
+    <string name="tab_item_perinfo_str">修改个人信息</string>
+    <string name="tab_item_medi_notice_str">我的服药提醒</string>
+    <string name="tab_item_quit_str">退出登录</string>
+
+    <string name="user_sex_prompt">请选择性别</string>
+    <string-array name="user_sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string name="male">男</string>
+    <string name="female">女</string>
+
+    <!--home-->
+    <string name="home_bmi">您的当前BMI指数：</string>>
+    <string name="home_state">微胖</string>>
+    <string name="home_begin">开始管理我的生活>>></string>>
+    <string-array name="home_state_arr">
+        <item>微胖</item>
+    </string-array>
+    <!-- fragment_sleep-->
+    <string name="sleep_age_str">您的年龄为：</string>
+    <string name="sleep_sleep_str">您的最佳睡眠时间为：</string>
+    <string name="sleep_water_str">每日喝水量：</string>
+    <string name="leave_water_str">剩余喝水量：</string>
+    <string name="set_water_str">设置</string>
+    <string name="water_str">喝水</string>
+    <string name="bei">杯</string>
+
+    <!--activity_weight-->
+    <string name="eat_layout_result">保存体重</string>
+    <string name="eat_layout_his">历史体重</string>
+
+    <!--fragment_drug-->
+    <string name="drug_layout_default_str">暂时没有体重记录哦~！！</string>
+
+    <!--fragment_drug save-->
+    <string name="drug_save_title">药品录入</string>
+    <string name="drug_save_drug_name_str">药物名称：</string>
+    <string name="drug_save_drug_produce_time">服药日期：</string>
+    <string name="drug_save_drug_desc">备注：</string>
+    <string name="drug_save_year">年</string>
+    <string name="drug_save_month">月</string>
+    <string name="drug_save_yue">月</string>
+    <string name="drug_save_day">日</string>
+    <string name="drug_save_drug_produce_baozhiqi">药品保质期：</string>
+    <string name="drug_save_submit">提交</string>
+
+    <string name="return_str">返回</string>
+
+    <!--mood-->
+    <string name="mood_sure">确定</string>
+    <string name="mood_default">您还没有心情记录</string>
+    <string name="mood_good">心情好</string>
+    <string name="mood_normal">心情一般</string>
+    <string name="mood_bad">心情坏</string>
+    <string name="mood_delete">删除</string>
+
+    <!--log-->
+    <string name="log_info">输入您的信息</string>
+    <string name="log_name">姓名：</string>
+    <string name="log_height">身高：</string>
+    <string name="log_weight">体重：</string>
+    <string name="log_age">年龄：</string>
+    <string name="log_sex">性别：</string>
+    <!--target-->
+    <string name="target_info">设置您的目标体重</string>
+    <string name="target_weight">体重：</string>
+    <string name="now_weight">当前体重：</string>
+    <string name="notice_weight">目标体重：</string>
+
+    <!-- drug setting-->
+    <string name="drug_setting_isalarm">是否提示</string>
+
+    <!--result-->
+    <string name="result_title">您当前的的bmi指数为：</string>
+    <string name="result_result_default">分析结果为一般情况，食物中如果含有高蛋白，高油脂，油炸类食物，摄入量会高1~2倍不等，具体情况具体分析，倡导大家要保持身材哦！！！</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--bodyBuilding-->
+    <string name="body_plan_setting">计划设置</string>
+    <string name="body_title">健身计划</string>
+    <string name="body_check_str">已打卡</string>
+    <string name="body_day_str">天</string>
+    <string name="body_check_state_true">列入计划</string>
+    <string name="body_check_state_false">暂不打卡</string>
+
+    <!--bodyBuilding detail-->
+    <string name="body_detail_title">计划名称：</string>
+    <string name="body_detail_title_hint">三个汉字以内</string>
+    <string name="body_detail_detail">详细内容：</string>
+    <string name="body_detail_detail_hint">四个汉字以内</string>
+    <string name="body_detail_plan_type">运动类型：</string>
+    <string name="body_detail_plan_type_prompt">请选择运动类型</string>
+    <string name="body_detail_card_type">卡片样式：</string>
+    <string name="body_detail_card_type_prompt">请选择卡片样式</string>
+    <string name="body_detail_card_color">卡片颜色：</string>
+    <string name="body_detail_is_check">是否打卡：</string>
+    <string name="body_detail_is_check_yse">是</string>
+    <string name="body_detail_is_check_no">否</string>
+    <string name="body_detail_save">保存计划</string>
+    <string name="body_detail_quit">取消保存</string>
+
+    <string-array name="body_detail_plan_type_arr">
+        <item>篮球</item>
+        <item>骑行</item>
+        <item>足球</item>
+        <item>跑步</item>
+        <item>游泳</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="body_detail_card_type_arr">
+        <item>水平</item>
+        <item>竖直</item>
+        <item>图标</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_body_building_setting">BodyBuildingSettingActivity</string>
+    <string name="title_activity_body_building_setting_detail">BodyBuildingSettingDetailActivity
+    </string>
+</resources>

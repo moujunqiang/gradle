@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_eat_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ActivityMarginStyle" >
+
+    <TextView
+        android:id="@+id/target_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/target_info"
+        style="@style/FragmentFormTextTitleSytle"/>
+
+    <LinearLayout
+        android:id="@+id/target_lay_weight"
+        android:layout_below="@+id/target_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/target_weight"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            style="@style/FragmentFormTextTitleDesSytle"/>
+
+        <EditText
+            android:id="@+id/target_et_weight"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            style="@style/MyEditStyle"
+            android:layout_height="wrap_content"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/eat_but_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_transparent"
+        android:text="@string/eat_layout_result"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_media"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/target_lay_weight"
+        style="@style/ActivityMarginStyle"/>
+    <Button
+        android:id="@+id/eat_but_dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_transparent"
+        android:text="@string/eat_layout_his"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_media"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/eat_but_save"
+        style="@style/ActivityMarginStyle"/>
+
+    <LinearLayout
+        android:id="@+id/notice_lay_weight"
+        android:layout_below="@+id/eat_but_dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now_weight"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            style="@style/FragmentFormTextTitleDesSytle"/>
+
+        <TextView
+            android:id="@+id/notice_weight1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            style="@style/FragmentFormTextTitleDesSytle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/notice_lay_weight2"
+        android:layout_below="@+id/notice_lay_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notice_weight"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            style="@style/FragmentFormTextTitleDesSytle"/>
+
+        <TextView
+            android:id="@+id/notice_weight2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            style="@style/FragmentFormTextTitleDesSytle"/>
+    </LinearLayout>
+</RelativeLayout>

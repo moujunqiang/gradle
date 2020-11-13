@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="gradle/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle.iml" group="gradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/lib.iml" group="gradle/lib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/metrolayout/metrolayout.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/metrolayout/metrolayout.iml" group="gradle/lib/metrolayout" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/swipelistview/swipelistview.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/swipelistview/swipelistview.iml" group="gradle/lib/swipelistview" />
+    </modules>
+  </component>
+</project>

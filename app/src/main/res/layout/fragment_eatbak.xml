@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_eat_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ActivityMarginStyle" >
+
+    <TextView
+        android:id="@+id/log_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/target_info"
+        style="@style/FragmentFormTextTitleSytle"/>
+
+    <LinearLayout
+        android:id="@+id/log_lay_weight"
+        android:layout_below="@+id/log_lay_tall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/target_weight"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            style="@style/FragmentFormTextTitleDesSytle"/>
+
+        <EditText
+            android:id="@+id/log_et_weight"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            style="@style/MyEditStyle"
+            android:layout_height="wrap_content"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/log_but_dismiss"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/drug_save_submit"
+            android:textSize="@dimen/text_size_media"
+            android:textColor="@color/white"
+            android:background="@drawable/button_transparent"
+            style="@style/ActivityMarginStyle"
+            />
+
+        <Button
+            android:id="@+id/log_but_return"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/return_str"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_media"
+            android:background="@drawable/button_transparent"
+            style="@style/ActivityMarginStyle"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    
+     <Button
+         android:id="@+id/eat_but_dismiss"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/button_transparent"
+         android:text="@string/eat_layout_result"
+         android:textColor="@color/white"
+         android:textSize="@dimen/text_size_media"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/eat_lay_zhushi"
+         style="@style/ActivityMarginStyle"/>
+</RelativeLayout>
